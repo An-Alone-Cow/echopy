@@ -1,0 +1,9 @@
+version: "3.5"
+services:
+  monkey:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./logs:/monkey/logs
+      - ./logs/sessions:/monkey/logs/sessions

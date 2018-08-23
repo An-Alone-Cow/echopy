@@ -1,0 +1,6 @@
+*.pyc
+
+echo_server_log.log
+
+logs/sessions/**
+!PLACEHOLDER
